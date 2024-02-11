@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     if name is not None:
         message = f'Hello {name}!'
     else:
-        message = 'Please provide a name parameter in the query string.'
+        message = 'Please provide a name parameter in the query string!'
 
     response = {
         'statusCode': 200,
